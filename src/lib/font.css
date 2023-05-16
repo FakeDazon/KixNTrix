@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Irregardless";
+    font-weight: 600;
+    font-style: italic;
+    src: url($lib/fonts/IrregardlessDemo-BoldItalic.woff);
+}
+@font-face {
+    font-family: "Irregardless";
+    font-weight: 600;
+    font-style: normal;
+    src: url($lib/fonts/IrregardlessDemo-Bold.woff);
+}
+
+@font-face {
+    font-family: "Irregardless";
+    font-weight: 800;
+    font-style: italic;
+    src: url($lib/fonts/IrregardlessDemo-BlackItalic.woff);
+}
+@font-face {
+    font-family: "Irregardless";
+    font-weight: 800;
+    font-style: normal;
+    src: url($lib/fonts/IrregardlessDemo-Black.woff);
+}
+
+@font-face {
+    font-family: "Sligoil";
+    src: url($lib/fonts/Sligoil-Micro.woff);
+}
