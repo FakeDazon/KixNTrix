@@ -27,7 +27,7 @@
     position: absolute;
 		width: 100%;
 		height: 100%;
-		object-fit: cover;
+		object-fit: contain;
 		transition: all .2s var(--snap-easing);
 	}
 	a {

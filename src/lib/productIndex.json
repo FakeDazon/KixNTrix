@@ -1,0 +1,8 @@
+{
+    "signature": {
+        "name": "SIGNATURE BOLT",
+        "image": "$lib/assets/shoes/Classic_Bolt/main.png",
+        "description": "description",
+        "price": "$60.00"
+    }
+}

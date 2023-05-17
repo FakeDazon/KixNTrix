@@ -43,7 +43,7 @@
 
 <div class="product-grid">
   <ProductCard href={"../threads/galaxyshirt"} img={GalaxyMain} secondImg={GalaxySecond} title={"GALAXY SHIRT"} price={"$50.00"}></ProductCard>
-  <ProductCard href={"../threads/beanie"} img={BeanieMain} secondImg={BeanieSecond} title={"TIE DIE BEANIE"} price={"$20.00"}></ProductCard>
+  <ProductCard href={"../threads/beanie"} img={BeanieMain} secondImg={BeanieSecond} title={"TIE DYE BEANIE"} price={"$20.00"}></ProductCard>
   <ProductCard href={"../threads/sox"} img={SoxMain} secondImg={SoxSecond} title={"FINE LINE SOX"} price={"$15.00"}></ProductCard>
 </div>
 
