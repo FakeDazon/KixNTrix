@@ -5,12 +5,14 @@ import Logo from "./Logo.svelte";
 
 <header>
   <div class="header-inner">
-    <div class="left">
-      <Logo size={70}/>
+    <div class="left"> 
+      <a class="none" href="../">
+        <Logo size={70}/>
+      </a>
     </div>
     <div class="center">
-      <a href="../shop/kix">KIX</a>
-      <a href="../shop/clothes">CLOTHES</a>
+      <a href="../kix">KIX</a>
+      <a href="../threads">THREADS</a>
     </div>
     <div class="right">
       <a href="" class="button">
@@ -81,5 +83,13 @@ import Logo from "./Logo.svelte";
     align-items: center;
     
     padding: 15px 10px
+  }
+
+  .none {
+    all:initial;
+    cursor: pointer;
+  }
+  .none:before {
+    all:initial
   }
 </style>

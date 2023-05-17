@@ -12,8 +12,8 @@ import LogoWhite from "./Logo-White.svelte";
     <div class="footer-section">
       <h3>SHOP</h3>
       <a href="../">HOME</a>
-      <a href="../shop/kix">KIX</a>
-      <a href="../shop/clothes">CLOTHES</a>
+      <a href="../kix">KIX</a>
+      <a href="../threads">THREADS</a>
     </div>
     <div class="footer-section">
       <h3>COLLECTIONS</h3>
@@ -43,6 +43,7 @@ import LogoWhite from "./Logo-White.svelte";
     padding-top: 100px;
     box-sizing: border-box;
     margin-top: 50px;
+    padding-bottom: 150px;
   }
 .footer-inner {
     margin: auto;
