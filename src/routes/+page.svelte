@@ -1,5 +1,6 @@
 <script>
   import HeroImage from "$lib/assets/herohome.png";
+  import ProductCard from "$lib/components/ProductCard.svelte";
 </script>
 
 <section class="hero">
@@ -17,6 +18,12 @@
 </section>
 
 <h2>CLASSIC KIX</h2>
+
+<div class="product-grid">
+  <ProductCard title={"CLASSIC BOLT"} price={"$59.99"}></ProductCard>
+  <ProductCard title={"CLASSIC BLACK BOLT"} price={"$54.99"}></ProductCard>
+  <ProductCard title={"CLASSIC WHITE BOLT"} price={"$54.99"}></ProductCard>
+</div>
 
 <style>
   .sunsetGradient {
