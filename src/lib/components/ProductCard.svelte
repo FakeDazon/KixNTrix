@@ -23,6 +23,18 @@
 		height: 400px;
 		position: relative;
 	}
+	@media (max-width: 1000px) {
+	.card-image {
+		height: 40vw;
+	}
+
+	}
+	@media (max-width: 600px) {
+	.card-image {
+		height: 80vw;
+	}
+
+	}
 	.card-image img {
     position: absolute;
 		width: 100%;

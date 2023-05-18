@@ -52,7 +52,7 @@
     .main {
         display: flex;
         justify-content: center;
-    width: min(1200px, 90vw);
+    width: min(1200px, calc(90vw - 50px));
     margin: auto;
     padding-top: 100px;
     gap: 50px;
@@ -64,5 +64,13 @@
     h3{
         font-family: "Sligoil";
         font-size: 30px;
+    }
+    @media (max-width: 1000px) {
+
+        .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     }
 </style>

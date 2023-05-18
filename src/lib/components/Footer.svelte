@@ -1,13 +1,18 @@
 <script>
   import Ig from "./IG.svelte";
-import LogoWhite from "./Logo-White.svelte";
+  import LogoWhite from "./Logo-White.svelte";
 </script>
 
 <footer>
   <div class="footer-inner">
     <div class="footer-section footer-logo">
       <LogoWhite size={70} />
-      <a class="button button-white"  href="ig"><Ig color={"#004"} size={25}></Ig></a>
+      <a
+      target="_blank"
+        class="button button-white"
+        href="https://www.instagram.com/kix.n.trix/"
+        ><Ig color={"#004"} size={25} /></a
+      >
     </div>
     <div class="footer-section">
       <h3>SHOP</h3>
@@ -23,6 +28,7 @@ import LogoWhite from "./Logo-White.svelte";
       <h3>COMPANY</h3>
       <a href="../about">ABOUT</a>
     </div>
+  </div>
 </footer>
 
 <style>
@@ -45,27 +51,29 @@ import LogoWhite from "./Logo-White.svelte";
     margin-top: 50px;
     padding-bottom: 150px;
   }
-.footer-inner {
+  .footer-inner {
     margin: auto;
     width: min(1200px, 90vw);
     height: 100%;
     display: flex;
-    justify-content: space-between;
-}
-.footer-section {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 10px;
-}
-.footer-logo{
-  align-items: center;
-  gap: 20px;
-}
-h3{
-  color: var(--whit);
-}
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    width: 225px;
+    padding-bottom: 30px;
+  }
+  .footer-logo {
+    align-items: center;
+    gap: 20px;
+  }
+  h3 {
+    color: var(--whit);
+  }
   .left,
   .right {
     width: 30%;
@@ -92,20 +100,24 @@ h3{
     box-sizing: border-box;
     align-items: center;
   }
-  a:not(.button){
+  a:not(.button) {
     all: initial;
-    font-family: 'Sligoil';
+    font-family: "Sligoil";
     cursor: pointer;
     color: white;
   }
-  a:not(.button):hover,a:not(.button):focus {
+  a:not(.button):hover,
+  a:not(.button):focus {
     color: var(--cyan);
   }
   a.button {
     padding: 0;
-    width: 30px; height: 35px;
+    width: 30px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  @media (max-width: 800px) {
   }
 </style>
